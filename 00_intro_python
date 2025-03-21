@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOlQe5QAPKFPTrsvfjeTDHy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/khan561hunter/assignment-04/blob/main/00_intro_python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8yCgbflAiofP",
+        "outputId": "13facec5-ea5f-46a7-d460-de823921bb6f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first number:4\n",
+            "Enter the second number : 5\n",
+            "the total is :  9\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1 : str = input(\"Enter the first number:\")\n",
+        "one :int = int(num1)\n",
+        "num2 : str = input(\"Enter the second number : \")\n",
+        "two :int  = int(num2)\n",
+        "sum = one + two\n",
+        "\n",
+        "print(\"the total is : \",sum)"
+      ]
+    }
+  ]
+}
